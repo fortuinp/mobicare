@@ -9,9 +9,13 @@ img[alt="logo"]{
     width: 30rem;
 }
 img[alt="pic"]{
-    width: 25rem;
+    width: 400px;
+    height: 400px;
 }
 main{
-    background-image:url("https://i.postimg.cc/mr2ZT6Qv/R.jpg");
-     height: max-content;
+    background-image:url("https://i.postimg.cc/mr2ZT6Qv/R.jpg " )  ;
+    background-position: center;
+    background-size: contain;
+    display: grid;
+    grid-template-rows: auto minmax(100%, 100vh) auto;
 }
